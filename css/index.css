@@ -1,0 +1,56 @@
+html, body, div, h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    min-width:1320px;
+    height:100%;
+    background-image:url(../img/back.jpg);
+    background-size: 100% 100%;
+    opacity:0.8;
+    color:#fff;
+    z-index: -1;
+}
+/*header*/
+    .headerBox{
+        width:100%;
+        height:200px;
+        z-index: 10;
+        font-size: 20px;
+    }
+    .leftLogo{
+        padding:50px;
+        float: left;
+    }
+    .leftLogo img{
+        width:100px;
+        height:100px;
+    }
+    .rightNav{
+        float: right;
+
+        margin:80px;
+    }
+    .rightNav .item{
+        float:left;
+        width:100px;
+        text-align: center;
+        cursor: pointer;
+    }
+/*header end*/
+/*content */
+    .contentBox{
+        width:100%;
+        height:600px;
+        z-index: 10;
+        font-size: 24px;
+    }
+    .contentBox .topText{
+        width:300px;
+        text-align: center;
+        margin:0 auto;
+    }
