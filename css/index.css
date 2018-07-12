@@ -4,7 +4,7 @@ p {
     padding: 0;
 }
 body{
-    overflow: hidden;
+
 }
 .container{
     min-width:1320px;
@@ -27,12 +27,25 @@ body{
         float: left;
     }
     .leftLogo img{
+        width:80px;
+        height:80px;
+        transition:All 1s ease-in-out;
+        -webkit-transition:All 1s ease-in-out;
+        -moz-transition:All 1s ease-in-out;
+        -o-transition:All 1s ease-in-out;
+    }
+    .leftLogo img:hover{
         width:100px;
         height:100px;
+        margin-top:-20px;
+        transform:rotate(360deg);
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
     }
     .rightNav{
         float: right;
-
         margin:80px;
     }
     .rightNav .item{
@@ -41,16 +54,62 @@ body{
         text-align: center;
         cursor: pointer;
     }
+    .rightNav .item:hover{
+        color:blue;
+    }
 /*header end*/
 /*content */
     .contentBox{
         width:100%;
-        height:600px;
+        height:530px;
         z-index: 10;
         font-size: 24px;
     }
     .contentBox .topText{
         width:300px;
         text-align: center;
+        letter-spacing: 5px;
+        color: #cc005f;
         margin:0 auto;
+    }
+    .name h1{
+        width:1000px;
+        text-align: center;
+        margin:0 auto;
+        font-size: 80px;
+    }
+    .occupation{
+        width:500px;
+        text-align: center;
+        margin:0 auto;
+        margin-top:30px;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .occupation span{
+        padding:0 20px;
+        border-right:2px solid gainsboro;
+        border-left:2px solid gainsboro;
+    }
+    .tel{
+        width:500px;
+        text-align: center;
+        margin:0 auto;
+        margin-top:30px;
+        letter-spacing: 5px;
+    }
+    .aboutMe{
+        width: 350px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        margin:0 auto;
+        margin-top:30px;
+        letter-spacing: 5px;
+        border: 3px solid #313131;
+        cursor: pointer;
+    }
+    .aboutMe a{
+        text-decoration:none;
+        color:#fff;
     }
