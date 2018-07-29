@@ -115,6 +115,33 @@ body{
     }
     .music{
         position: fixed;
-        right:20px;
+        left:20px;
         top:150px;
     }
+    #javascrit{
+        position: relative;
+    }
+    #javascriptInner{
+        position: absolute;
+        display:none;
+        z-index: 999;
+    }
+.ulMargin{
+    margin-left: -35px;
+    margin-top: 10px;
+}
+#javascriptInner li{
+    list-style: none;
+    width:100px;
+    text-align: center;
+}
+.css3Inner{
+    position: absolute;
+    display:none;
+    z-index: 999;
+}
+.css3Inner li{
+    list-style: none;
+    width:100px;
+    text-align: center;
+}
